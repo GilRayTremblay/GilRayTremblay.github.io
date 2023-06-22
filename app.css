@@ -1,0 +1,12 @@
+.profileImg {
+    width: 210px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    text-align: center;
+}
+
+.profileImg img {
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid rgb(119, 223, 119);
+}
