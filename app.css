@@ -1,12 +1,39 @@
+body {
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+}
+
 .profileImg {
     width: 210px;
     border-radius: 5px;
     border: 1px solid grey;
     text-align: center;
+    margin: 5px;
 }
 
 .profileImg img {
     width: 200px;
     border-radius: 50%;
     border: 5px solid rgb(119, 223, 119);
+}
+
+.topNav a {
+    position: relative;
+    padding: 10px;
+    text-align: center;
+    background-color: beige;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 5px;
+    margin-top: 20px;
+    top: 15px;
+}
+
+h1 {
+    font-family: Roboto, sans-serif;
+    font-weight: 100;
+    font-size: 3rem;
+    margin-bottom: 0;
 }
