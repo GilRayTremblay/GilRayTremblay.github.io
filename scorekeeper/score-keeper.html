@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Keeper</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <div id="container-fluid"></div>
+    <div class="row pt-4">
+        <div class="col"></div>
+        <div class="col-4 m-0 p-0 shadow bg-body-tertiary rounded">
+            <img id="mainImage"
+                src="https://images.unsplash.com/photo-1626890631686-0b3113188c48?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                alt="">
+        </div>
+        <div class="col"></div>
+    </div>
+    <div class="row">
+        <div class="col"></div>
+        <div class="col-4 border border-top-0 shadow p-3 bg-body-tertiary rounded">
+            <h1>Score Keeper</h1>
+        </div>
+        <div class="col"></div>
+    </div>
+    <div class="row">
+        <div class="col"></div>
+        <div class="col-4 border border-top-0 shadow p-3 bg-body-tertiary rounded">
+            <p></p>
+            <p id="scoreLine"> <span id="p1Score"> 0 </span> to <span id="p2Score"> 0 </span> </p>
+            <p>Use the buttons below to keep score.</p>
+            <label for="maxScore"> Playing to</label>
+            <input type="number" id="maxScore" name="maxScore" min="1" max="100" value="7">
+        </div>
+        <div class="col"></div>
+    </div>
+    <div class="row gx-0">
+        <div class="col-4"></div>
+        <div class="col">
+            <button id="incPlayerOne" type="button" class="w-100 btn btn-success">+1 Player One</button>
+        </div>
+        <div class="col">
+            <button id="incPlayerTwo" type="button" class="w-100 btn btn-primary">+1 Player Two</button>
+        </div>
+        <div class="col">
+            <button id="reset" type="button" class="w-100 btn btn-danger">Reset</button>
+        </div>
+        <div class="col-4"></div>
+    </div>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
